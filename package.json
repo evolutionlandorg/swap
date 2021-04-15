@@ -1,0 +1,19 @@
+{
+    "name": "evo-swap",
+    "version": "1.0.0",
+    "author": "echo",
+    "license": "MIT",
+    "private": true,
+    "workspaces": {
+        "packages": [
+            "packages/other_contracts",
+            "packages/uniswap-v2-sdk",
+            "packages/uniswap-v2-core"
+        ]
+    },
+    "scripts": {
+        "build": "yarn workspaces run build",
+        "setup": "yarn workspaces run setup",
+        "start:ui": "yarn workspace @uniswap/interface start"
+    }
+}

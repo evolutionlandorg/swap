@@ -1,0 +1,23 @@
+{
+  "name": "other_contracts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "echo",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "migrate": "truffle migrate --reset",
+    "migrate:dev": "truffle migrate --reset --network development",
+    "migrate:hecotest": "truffle migrate --reset --network hecotest",
+    "build": "truffle compile",
+    "setup": "yarn migrate:hecotest"
+  },
+  "dependencies": {
+    "@uniswap/lib": "4.0.1-alpha",
+    "@uniswap/v2-core": "1.0.0"
+  },
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^1.2.6",
+    "truffle": "^5.3.1"
+  }
+}
