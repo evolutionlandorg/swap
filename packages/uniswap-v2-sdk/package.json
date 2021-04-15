@@ -17,7 +17,6 @@
   "scripts": {
     "lint": "tsdx lint src test",
     "build": "tsdx build",
-    "setup": "yarn build",
     "start": "tsdx watch",
     "test": "tsdx test",
     "prepublishOnly": "tsdx build"
