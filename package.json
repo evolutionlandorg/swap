@@ -8,7 +8,8 @@
         "packages": [
             "packages/other_contracts",
             "packages/uniswap-v2-sdk",
-            "packages/uniswap-v2-core"
+            "packages/uniswap-v2-core",
+            "packages/uniswap-interface"
         ]
     },
     "scripts": {

@@ -2,7 +2,7 @@ const UniswapV2Factory = artifacts.require("UniswapV2Factory");
 const UniswapV2ERC20 = artifacts.require("UniswapV2ERC20");
 
 const fs = require('fs')
-const contracts = require('../../../../contract_addresses.json')
+const contracts = require('../../uniswap-v2-sdk/contract_addresses.json')
 
 module.exports = async function(deployer, network, accounts) {
   await deployer.deploy(UniswapV2Factory, accounts[0]);
@@ -12,7 +12,7 @@ module.exports = async function(deployer, network, accounts) {
   const tokenContract = await UniswapV2ERC20.deployed()
 
 
-  fs.writeFileSync('../../../../contract_addresses.json',JSON.stringify({
+  fs.writeFileSync('../../packages/uniswap-v2-sdk/contract_addresses.json',JSON.stringify({
     ...contracts,
     factoryAddress: factoryContract.address,
     uniTokenAddress: tokenContract.address
