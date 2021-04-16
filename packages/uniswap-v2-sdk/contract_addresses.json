@@ -1,7 +1,7 @@
 {
     "wethAddress": "0xD4C2F962B8b94cdD2e0B2e8E765d39f32980a1c1",
-    "routerAddress": "0x0Ee81a88e372C2Cd5714F3e5B490CA95da8Cf248",
-    "factoryAddress": "0x696742e73d36927a49df0C4E13ef2A1dFa5256f2",
-    "multicallAddress": "0x7A390f2D95ccA7EE3446Cfce3627545F85093358",
-    "uniTokenAddress": "0xE2107139EC4Ed5e2e427CA40Ef06a6d58a1D85d4"
+    "routerAddress": "0xC2326B74350A66f88620fb91243E3420a2d31EcE",
+    "factoryAddress": "0xA19a691EB6dE729758BFCef165e117C830483eF0",
+    "multicallAddress": "0x725E5e2ff076b313A8035D37074747A29144aE11",
+    "uniTokenAddress": "0x5d6eCAe13D7D13dc7eAaf0a9868B7816646727b7"
 }
